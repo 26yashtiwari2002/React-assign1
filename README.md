@@ -22,7 +22,23 @@ Welcome to **Blogify**, a responsive and interactive blog application built with
 ---
 
 ## 📁 Project Structure
-<pre> ```text React-assign1/ ├── my-app/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ │ ├── Navbar.js │ │ │ ├── Navbar.css │ │ │ ├── Footer.js │ │ │ ├── Footer.css │ │ ├── App.js │ │ ├── App.css │ │ └── index.js ├── .gitignore ├── package.json └── README.md ← you’re here! ``` </pre>
+```text
+React-assign1/
+├── my-app/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.js
+│   │   │   ├── Navbar.css
+│   │   │   ├── Footer.js
+│   │   │   ├── Footer.css
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+├── .gitignore
+├── package.json
+└── README.md ← you’re here!
+
 
 ## 🛠️ Technologies Used
 
