@@ -38,6 +38,8 @@ React-assign1/
 ├── .gitignore
 ├── package.json
 └── README.md ← you’re here!
+```
+
 
 
 ## 🛠️ Technologies Used
