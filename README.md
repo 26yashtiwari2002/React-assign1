@@ -61,7 +61,7 @@ my-app/
 ├── .gitignore                   
 ├── package.json                 
 ├── package-lock.json            
-└── README.md                #<---- You are here <3                       
+└── README.md              <---- You are here <3                       
 
 ```
 
