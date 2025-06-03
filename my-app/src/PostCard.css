@@ -1,0 +1,80 @@
+/* PostCard.css */
+.post-card {
+  background: #ffe4ff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.02);
+  border: 1px solid #774aff;
+}
+
+.post-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #852aa7;
+}
+
+.post-body {
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.post-author {
+  color: #f62ae1;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tag {
+  background: #e4d4fb;
+  color: #fb00ff;
+  padding: 0.3rem 0.6rem;
+  border: 0.5px solid;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+/* Reactions */
+.reactions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.like-button,
+.dislike-button {
+  background-color: #e8e4ff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.like-button:hover {
+  background-color: #adf8cb;
+}
+
+.dislike-button:hover {
+  background-color: #f99eb8;
+}
