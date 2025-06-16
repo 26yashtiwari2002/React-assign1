@@ -4,12 +4,16 @@
   max-width: 800px;
   margin: 3rem auto;
   padding: 2rem;
-  background-color: #fff;
+  background: #ffe4ff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
+.page-container:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.02);
+  border: 1px solid #774aff;
+}
 .page-container h1 {
   font-size: 2.2rem;
   color: #672280;
